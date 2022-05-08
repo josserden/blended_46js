@@ -5,6 +5,6 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"qJUB":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getRefs=void 0;const e=()=>({formSearch:document.querySelector(".js-search"),modalForm:document.querySelector(".js-modal-form"),contactsList:document.querySelector(".js-contacts-list")});exports.getRefs=e;
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("material-icons/iconfont/material-icons.css"),require("./sass/main.scss");var s=require("./js/getRefs");const{formSearch:e,modalForm:r,contactsList:i}=(0,s.getRefs)();
+"use strict";require("material-icons/iconfont/material-icons.css"),require("./sass/main.scss");var e=require("./js/getRefs");const{formSearch:s,modalForm:t,contactsList:a}=(0,e.getRefs)();t.addEventListener("submit",e=>{e.preventDefault();const{name:s,phone:a,email:i}=e.target,r=s.value.trim(),n=a.value.trim(),l=i.value.trim();if(!r||!n||!l)return void alert("Please fill in all fields");const o={name:r,phone:n,email:l};console.log(o),t.reset()});
 },{"material-icons/iconfont/material-icons.css":"VyAM","./sass/main.scss":"clu1","./js/getRefs":"qJUB"}]},{},["Focm"], null)
-//# sourceMappingURL=/blended_46js/src.c37c2b8a.js.map
+//# sourceMappingURL=/blended_46js/src.cc40fc5c.js.map
