@@ -1,7 +1,6 @@
 export const getRefs = () => {
   return {
-    formSearch: document.querySelector('.js-search'),
-    modalForm: document.querySelector('.js-modal-form'),
-    contactsList: document.querySelector('.js-contacts-list'),
+    searchForm: document.querySelector('.js-search-form'),
+    cardList: document.querySelector('.js-card-list'),
   };
 };
